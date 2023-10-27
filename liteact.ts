@@ -1,4 +1,0 @@
-const Liteact = {
-    jsx: () => {}
-}
-
