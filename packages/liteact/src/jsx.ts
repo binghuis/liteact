@@ -1,8 +1,8 @@
-import { React_Element_Type } from 'shared/ReactSymbols';
+import { Liteact_Element_Type } from 'shared/LiteactSymbols';
 
-const ReactElement = (type, key, ref, props) => {
+const LiteactElement = (type, key, ref, props) => {
   const element = {
-    $$typeof: React_Element_Type,
+    $$typeof: Liteact_Element_Type,
     key: '',
     ref: '',
     props: '',
